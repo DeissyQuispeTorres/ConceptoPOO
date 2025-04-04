@@ -15,8 +15,15 @@ public class Principal {
 
         System.out.println("Madre Gestante");
         System.out.println("Nombre: " + madre.nombre+"\nApellido: " +
-                madre.apellido+"\nApellido"+"\nPeso: " + madre.peso);
+                madre.apellido+"\nPeso: " + madre.peso);
+        
+        System.out.println("Madre con hijo");
+        System.out.println("Nombre: " + madre.nombre+"\nApellido: " +
+                madre.apellido+"\nPeso: " + (madre.peso- hijo.peso));
 
-
+        
+        System.out.println("Datos del hijo");
+        System.out.println("Nombre: " + hijo.nombre+"\nApellido: " +
+                madre.apellido+"\nPeso: " +hijo.peso);
     }
 }
